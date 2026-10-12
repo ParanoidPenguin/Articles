@@ -1,0 +1,56 @@
+# Your reading interest profile
+# This is the "recommendation system" seed — the AI uses it to rank articles.
+# Edit this freely to match your tastes. The more specific, the better.
+
+# General description of what you love to read
+description: >
+  I enjoy deeply reported long-form journalism, thought-provoking essays,
+  and pieces that explore ideas from unexpected angles. I prefer articles
+  that go deep rather than skim the surface. I value clear, elegant writing
+  over sensationalism. I am drawn to pieces about technology and society,
+  philosophy, science, culture, and big-picture thinking about the future.
+
+# Topics you actively want to see
+topics_liked:
+  - technology and society
+  - philosophy and ethics
+  - artificial intelligence
+  - climate and environment
+  - political economy
+  - science and discovery
+  - culture and criticism
+  - urbanism and cities
+  - psychology and behaviour
+  - history and how we got here
+
+# Topics you want to avoid
+topics_avoided:
+  - celebrity gossip
+  - product reviews
+  - stock market news
+  - sports scores
+  - lifestyle tips
+  - listicles
+
+# Preferences for article style
+preferences:
+  preferred_length: long  # short, medium, long, any
+  preferred_depth: in-depth  # surface, analytical, in-depth
+  preferred_tone: thoughtful  # neutral, opinionated, thoughtful, provocative
+  avoid_clickbait: true
+  prefer_original_reporting: true
+
+# How many articles to include in each issue
+max_articles: 5
+
+# --- Email settings (optional) ---
+send_email: false  # set to true after adding BUTTONDOWN_API_KEY secret
+email_subject_template: "Reading List — {date}"
+
+# --- Advanced: examples of articles you loved ---
+# Paste URLs or titles of articles you genuinely enjoyed. The AI uses these
+# as reference points for what "good" means to you.
+loved_examples:
+  - "Any article that changes how I see the world"
+  - "Pieces that connect dots between fields"
+  - "Writing that takes a familiar topic and reveals something new about it"

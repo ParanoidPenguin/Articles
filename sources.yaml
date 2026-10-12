@@ -1,0 +1,45 @@
+# Your RSS feed sources
+# Add one entry per publication you want to pull articles from.
+# Most publications have RSS feeds — search for "[publication name] RSS feed" to find them.
+# Common ones are included below as examples. Remove or edit as you like.
+
+- name: Aeon
+  feed: https://aeon.co/feed.rss
+  topics: [philosophy, science, society, culture]
+  weight: 1.3  # boost this source's articles slightly
+
+- name: The Atlantic
+  feed: https://www.theatlantic.com/feed/all/
+  topics: [politics, culture, technology, society]
+  weight: 1.0
+
+- name: The New Yorker
+  feed: https://www.newyorker.com/feed/everything
+  topics: [culture, politics, books, long reads]
+  weight: 1.2
+
+- name: Longreads
+  feed: https://longreads.com/feed/
+  topics: [long reads, essays, nonfiction]
+  weight: 1.4
+
+- name: Ars Technica
+  feed: https://feeds.arstechnica.com/arstechnica/index
+  topics: [technology, science, policy]
+  weight: 0.8
+
+- name: Stratechery
+  feed: https://stratechery.com/feed/
+  topics: [technology, business, strategy]
+  weight: 1.1
+
+- name: Paul Graham
+  feed: http://www.aaronsw.com/2002/feeds/pgessays.rss
+  topics: [essays, startups, technology, philosophy]
+  weight: 1.3
+
+# --- Add your own below ---
+# - name: Example Publication
+#   feed: https://example.com/feed.rss
+#   topics: [topic1, topic2]
+#   weight: 1.0

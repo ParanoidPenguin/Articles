@@ -1,0 +1,11 @@
+# Feedback file — edit after each issue to improve recommendations
+# The AI reads this on the next run to learn your preferences
+
+loved:
+  # - https://example.com/article-you-loved
+
+okay:
+  # - https://example.com/article-that-was-fine
+
+not_for_me:
+  # - https://example.com/article-you-didnt-enjoy
