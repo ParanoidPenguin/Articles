@@ -6,27 +6,27 @@
 - name: Aeon
   feed: https://aeon.co/feed.rss
   topics: [philosophy, science, society, culture]
-  weight: 1.3  # boost this source's articles slightly
+  weight: 0.8  # boost this source's articles slightly
 
 - name: The Atlantic
   feed: https://www.theatlantic.com/feed/all/
   topics: [politics, culture, technology, society]
-  weight: 1.0
+  weight: 0.6
 
 - name: The New Yorker
   feed: https://www.newyorker.com/feed/everything
   topics: [culture, politics, books, long reads]
-  weight: 1.2
+  weight: 0.6
 
-- name: Longreads
-  feed: https://longreads.com/feed/
-  topics: [long reads, essays, nonfiction]
+- name: New Statesman
+  feed: https://politepaul.com/fd/lCDRwmzqvnYf.xml
+  topics: [politics, society, policy]
   weight: 1.4
 
-- name: Ars Technica
-  feed: https://feeds.arstechnica.com/arstechnica/index
-  topics: [technology, science, policy]
-  weight: 0.8
+- name: UnHerd
+  feed: https://unherd.com
+  topics: [opinion, politics, ideas]
+  weight: 1
 
 - name: Stratechery
   feed: https://stratechery.com/feed/
