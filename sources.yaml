@@ -38,6 +38,27 @@
   topics: [technology, ideas, philosophy]
   weight: 1.3
 
+- name: Data Points
+  feed: https://www.ft.com/data-points
+  topics: [policy, society, research]
+  weight: 1.5
+  
+- name: Guardian
+  feed: https://www.theguardian.com/uk
+  topics: [politics, society, opinion]
+  weight: 0.5
+
+- name: Tibor Rutar
+  feed: https://substack.com/@tiborrutar/feed
+  topics: [politics, society, research]
+  weight: 1
+
+- name: Derek Thompson
+  feed: https://substack.com/@derekthompson/feed
+  topics: [society, data, ideas]
+  weight: 1
+  
+
 # --- Add your own below ---
 # - name: Example Publication
 #   feed: https://example.com/feed.rss
