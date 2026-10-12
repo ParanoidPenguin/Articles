@@ -28,14 +28,14 @@
   topics: [opinion, politics, ideas]
   weight: 1
 
-- name: Stratechery
-  feed: https://stratechery.com/feed/
-  topics: [technology, business, strategy]
-  weight: 1.1
+- name: LSE Blog
+  feed: https://politepaul.com/fd/zHRCBQrO78ay.xml
+  topics: [politics, society, policy]
+  weight: 1
 
-- name: Paul Graham
-  feed: http://www.aaronsw.com/2002/feeds/pgessays.rss
-  topics: [essays, startups, technology, philosophy]
+- name: Noema
+  feed: https://politepaul.com/fd/PpXvxz3hLwl0.xml
+  topics: [technology, ideas, philosophy]
   weight: 1.3
 
 # --- Add your own below ---
